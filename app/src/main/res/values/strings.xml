@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">专注卫士</string>
+    <string name="notification_channel_usage">使用时长监控</string>
+    <string name="notification_usage_text">连续使用 %1$s</string>
+    <string name="notification_exempted_text">豁免中，已暂停提醒</string>
+    <string name="service_running">正在监控屏幕使用时长</string>
+
+    <!-- 权限引导 -->
+    <string name="welcome_title">欢迎使用专注卫士</string>
+    <string name="welcome_desc">自动监控屏幕使用时长，超时提醒+锁屏，通话/导航时自动静默</string>
+    <string name="btn_start_setup">开始设置</string>
+    <string name="btn_next">下一步</string>
+    <string name="btn_finish">完成设置</string>
+    <string name="btn_skip">暂不开启</string>
+    <string name="btn_grant">授予权限</string>
+    <string name="btn_go_settings">去开启</string>
+    <string name="btn_start_experience">立即体验</string>
+
+    <!-- 设备管理员 -->
+    <string name="perm_device_admin_title">设备管理器权限（必需）</string>
+    <string name="perm_device_admin_desc">需要设备管理器权限来锁定屏幕（作为提醒）</string>
+    <string name="perm_device_admin_warning">⚠️ 卸载方式：设置 → 安全 → 设备管理器</string>
+
+    <!-- 自启动 -->
+    <string name="perm_autostart_title">自启动权限（强烈建议）</string>
+    <string name="perm_autostart_desc">开启后，关机重启也能自动保护</string>
+
+    <!-- 电池优化 -->
+    <string name="perm_battery_title">电池优化白名单（强烈建议）</string>
+    <string name="perm_battery_desc">关闭电池优化，让提醒更稳定</string>
+
+    <!-- 通知权限 -->
+    <string name="perm_notification_title">通知权限（建议）</string>
+    <string name="perm_notification_desc">开启通知，获取使用提醒</string>
+
+    <!-- 导航精检 -->
+    <string name="perm_nav_title">导航精检（可选）</string>
+    <string name="perm_nav_desc">开启后，即使用户未连接车载蓝牙也能识别导航 App</string>
+
+    <!-- 完成 -->
+    <string name="setup_complete_title">设置完成！</string>
+    <string name="setup_complete_desc">专注卫士已就绪，将自动开始监控您的屏幕使用时间</string>
+
+    <!-- 主界面 -->
+    <string name="tab_home">主页</string>
+    <string name="tab_report">报告</string>
+    <string name="tab_settings">设置</string>
+    <string name="usage_today">今日使用</string>
+    <string name="continuous_usage">连续使用</string>
+    <string name="unlock_count">解锁次数</string>
+    <string name="status_monitoring">监控中</string>
+    <string name="status_idle">待机中</string>
+    <string name="status_exempted">豁免中</string>
+    <string name="no_data">暂无数据</string>
+    <string name="monitoring_period">监控时段</string>
+    <string name="not_in_monitoring_period">当前不在监控时段</string>
+
+    <!-- 提醒 -->
+    <string name="first_reminder_title">📱 已连续使用 1 小时</string>
+    <string name="first_reminder_body">建议休息一下，放松眼睛~</string>
+    <string name="lock_reminder_title">亲爱的，你已经严重超时使用手机了呢</string>
+    <string name="lock_reminder_body">手机将在 %d 秒后锁屏哦！</string>
+    <string name="exempted_hint">通话中 / 导航中，已暂停提醒</string>
+
+    <!-- 豁免场景 -->
+    <string name="exemption_section">豁免场景</string>
+    <string name="exemption_desc">以下场景由软件自动识别，用户零配置</string>
+    <string name="exemption_in_call">通话中</string>
+    <string name="exemption_in_call_desc">来电/去电/通话进行中，自动暂停计时和提醒</string>
+    <string name="exemption_navigation">开车导航中</string>
+    <string name="exemption_navigation_desc">车载蓝牙连接自动识别，暂停计时和提醒</string>
+    <string name="nav_high_precision">导航高精度模式</string>
+    <string name="nav_high_precision_desc">自动识别导航 App 前台运行</string>
+
+    <!-- 设置 -->
+    <string name="settings_title">设置</string>
+    <string name="start_time">开始时间</string>
+    <string name="end_time">结束时间</string>
+    <string name="about">关于</string>
+    <string name="version">版本</string>
+    <string name="rom_guide">ROM 后台保活指南</string>
+    <string name="disclaimer">本 App 需要在电池设置中将 App 设为允许后台运行，否则功能可能无法正常生效。如遇系统更新后权限被重置，请重新操作。</string>
+    <string name="data_privacy">所有使用数据仅存储在本地，不上传云端。</string>
+
+    <!-- 报告 -->
+    <string name="report_today">今日使用报告</string>
+    <string name="total_usage">总使用时长</string>
+    <string name="max_continuous">最长连续使用</string>
+    <string name="unlock_times">解锁次数</string>
+    <string name="history_7_days">近 7 天记录</string>
+</resources>
